@@ -153,5 +153,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7040cfdf088cba4185bb938ab62d51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeslaKiller
-  speed: 20
+  speed: 180
   tesla: {fileID: 0}

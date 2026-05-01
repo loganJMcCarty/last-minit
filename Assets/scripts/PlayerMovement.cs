@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetMouseButton(1))
         {
-            rb.AddForce(yInput * speed * transform.forward * 0.5f);
+            rb.AddForce(yInput * speed * transform.forward * 0.3f);
             boast.gameObject.SetActive(true);
             fire.gameObject.SetActive(false);
             Debug.Log("held");

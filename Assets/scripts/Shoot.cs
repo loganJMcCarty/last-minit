@@ -8,7 +8,7 @@ public class Shoot : MonoBehaviour
     bool isFiring;
     private bool canFire = true;
     public GameObject bully;
-    
+    public GameObject bang;
    
     void Start()
     {
@@ -34,11 +34,13 @@ public class Shoot : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             isFiring = true;
+            bang.gameObject.SetActive(true);
         }
 
         if (Input.GetMouseButtonUp(0))
         {
             isFiring = false;
+            bang.gameObject.SetActive(false);
         }
     }
 

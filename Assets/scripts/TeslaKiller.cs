@@ -9,7 +9,7 @@ public class TeslaKiller : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
-        Destroy(gameObject, 10f);
+        Destroy(gameObject, 3f);
     }
 
     // Update is called once per frame
