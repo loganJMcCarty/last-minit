@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1982780571168556522}
   - component: {fileID: 1600443777340671247}
   - component: {fileID: 7803651763409949187}
-  - component: {fileID: 8565489901733385099}
+  - component: {fileID: 5829359836824532998}
   - component: {fileID: 3555034809876166154}
   m_Layer: 0
   m_Name: bully
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.06557085, y: 0.06557085, z: 0.09602851}
+  m_LocalScale: {x: 0.06557085, y: 0.16351403, z: 1.1369326}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,8 +120,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 48
   m_CollisionDetection: 1
---- !u!135 &8565489901733385099
-SphereCollider:
+--- !u!136 &5829359836824532998
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -138,8 +138,10 @@ SphereCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3555034809876166154
 MonoBehaviour:
