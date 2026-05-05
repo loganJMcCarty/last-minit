@@ -4,7 +4,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     private int teslaSpawned;
-    private int maxSpawned = 100;
+    private int maxSpawned = 20;
     public int teslaToSpawn = 5;
     public GameObject[] SpawnPosition;
     public GameObject Tesla;

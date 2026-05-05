@@ -519,8 +519,6 @@ MonoBehaviour:
   teslaToSpawn: 1
   SpawnPosition:
   - {fileID: 286441170776732405}
-  - {fileID: 6896925903895386291}
-  - {fileID: 4113763025895049340}
   Tesla: {fileID: 2785284287042545150, guid: 6f0a2b168ac380f4e95d1a09a37102d0, type: 3}
 --- !u!1 &6896925903895386291
 GameObject:

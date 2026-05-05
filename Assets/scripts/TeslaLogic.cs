@@ -31,6 +31,7 @@ public class TeslaLogic : MonoBehaviour
             boom.gameObject.SetActive(true);
             Light.gameObject.SetActive(false);
             navMeshAgent.enabled = false;
+            Destroy(gameObject, 5f);
         }
     }
 
