@@ -13,6 +13,7 @@ public class TeslaLogic : MonoBehaviour
     public GameObject boom;
     public GameObject Light;
     private NavMeshAgent navMeshAgent;
+   
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
@@ -32,6 +33,7 @@ public class TeslaLogic : MonoBehaviour
             Light.gameObject.SetActive(false);
             navMeshAgent.enabled = false;
             Destroy(gameObject, 5f);
+            
         }
     }
 
@@ -40,7 +42,17 @@ public class TeslaLogic : MonoBehaviour
         if(other.gameObject.tag == "bully")
         {
             health = health - 1;
-            
+             CarControl.Instance.AddPoints(1);
         }
     }
+
+   /* public void OnCollisionEnter(Collision collision)
+    {
+       
+        if (health <= 0)
+        {
+           
+
+        }
+    }*/
 }

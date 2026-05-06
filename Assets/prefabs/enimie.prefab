@@ -487,9 +487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2b9292d6798ea4db57d78addfa6abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAi
-  speed: 20
-  rotationspeed: 180
-  player: {fileID: 6652905891521723963, guid: f7ffeed146d7f334c9d85dcddcb7d4e0, type: 3}
+  speed: 1
+  player: {fileID: 0}
 --- !u!114 &5698471090992418617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,10 +503,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TeslaLogic
   healthbar: {fileID: 3493031620747572697}
   Health: {fileID: 7729661867398159607}
-  maxHealth: 350
-  health: 350
+  maxHealth: 200
+  health: 200
   boom: {fileID: 5947931906012101241}
   Light: {fileID: 3430918886593917806}
+  Car: {fileID: 0}
 --- !u!195 &831160197847575164
 NavMeshAgent:
   m_ObjectHideFlags: 0

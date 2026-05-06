@@ -6,6 +6,7 @@ public class TeslaKiller : MonoBehaviour
     public int speed = 2;
     private Rigidbody rb;
     public TeslaLogic tesla;
+    
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
