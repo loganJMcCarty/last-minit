@@ -11,6 +11,7 @@ public class MainMenuManiger : MonoBehaviour
 {
     public GameObject menu;
     public GameObject htp;
+    public GameObject cred;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,7 +40,17 @@ public class MainMenuManiger : MonoBehaviour
         menu.SetActive(true);
     }
 
-    
+    public void GoBack2()
+    {
+        cred.SetActive(false);
+        menu.SetActive(true);
+    }
+
+    public void Cred()
+    {
+        cred.SetActive(true);
+        menu.SetActive(false);
+    }
 
 
     public void Exit()

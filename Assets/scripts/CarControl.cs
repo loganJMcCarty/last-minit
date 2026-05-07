@@ -17,6 +17,7 @@ public class CarControl : MonoBehaviour
     public int health = 100;
     private int currentPoints = 0;
     public TextMeshProUGUI score;
+    
 
     private void Awake()
     {
@@ -73,7 +74,8 @@ public class CarControl : MonoBehaviour
     private void DisablePlayerMovement()
     {
 
-        GetComponent<PlayerMovement>();
+        GetComponent<PlayerMovement>().enabled = false;
+        GetComponent<Shoot>().enabled = false;
         //playerInput.DeactivateInput();
         Cursor.lockState = CursorLockMode.None;
 
@@ -82,7 +84,8 @@ public class CarControl : MonoBehaviour
     private void EnabledPlayerMovement()
     {
 
-        GetComponent<PlayerMovement>();
+        GetComponent<PlayerMovement>().enabled = true;
+        GetComponent<Shoot>().enabled = true;
         //playerInput.ActivateInput();
         Cursor.lockState = CursorLockMode.Locked;
     }
