@@ -709,7 +709,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: how to play
+  m_text: how to hunt
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -1146,9 +1146,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'eliminate as many telsa as posable before you brake down, your health
-    is permment thers theres no healing and they get faster over time till they overwelm
-    you.
+  m_text: 'eliminate as many telsa as posable before they ram into you anoth to brake 
+    you down, your health is permenent thers theres no healing and they get faster
+    over time till they overwelm you.
 
 
     kill them before they kill you'
