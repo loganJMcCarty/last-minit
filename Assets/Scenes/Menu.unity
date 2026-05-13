@@ -5060,14 +5060,14 @@ RectTransform:
   m_GameObject: {fileID: 1394609855}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.87624, y: 0.87624, z: 0.87624}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1628034312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 117}
+  m_AnchoredPosition: {x: 14, y: 93}
   m_SizeDelta: {x: 1156.0283, y: 609.4938}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394609857
@@ -5103,7 +5103,13 @@ MonoBehaviour:
 
 
 
-    soundreality,explosion'
+    soundreality,explosion
+
+
+    help with code
+
+    morgen houston, 
+    cason mcvey'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
